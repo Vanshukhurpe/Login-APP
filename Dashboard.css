@@ -1,0 +1,70 @@
+/* Dashboard.css */
+
+/* Style the dashboard container */
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the dashboard header */
+  .dashboard-header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the filter section */
+  .filter-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the filter dropdown */
+  .filter-dropdown {
+    flex: 1;
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  /* Style the search input */
+  .search-input {
+    flex: 2;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  /* Style the table */
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style table headers */
+  .data-table th {
+    background-color: #f0f0f0;
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Style table rows */
+  .data-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Style table rows on hover */
+  .data-table tr:hover {
+    background-color: #f5f5f5;
+  }

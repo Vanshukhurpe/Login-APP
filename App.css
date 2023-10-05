@@ -1,0 +1,50 @@
+/* App.css */
+
+/* Apply a background color to the entire app */
+body {
+  background-color: #f0f0f0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the main container */
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the header */
+.header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style the main content area */
+.content {
+  padding: 20px;
+}
+
+/* Style links in the content area */
+.content a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Style links on hover */
+.content a:hover {
+  text-decoration: underline;
+}
